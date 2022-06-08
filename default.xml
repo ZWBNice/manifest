@@ -12,6 +12,6 @@
            revision="main"
        sync-j="4" />
   <project name="ZWBNice/MainProject" path="/MainProject" groups="mainProject" remote="Main" />
-  <project name="ZWBNice/NetCore" path="/MainProject/NetCore" groups="lib" remote="NetCore" />
+  <project name="ZWBNice/NetCore" path="/MainProject/Modularization/NetCore" groups="lib" remote="NetCore" />
 
 </manifest>
