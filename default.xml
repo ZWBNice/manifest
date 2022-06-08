@@ -6,12 +6,12 @@
 <!--       review="https://github.com/" />-->
   <remote  name="NetCore"
        fetch="https://github.com"
-       revision="master"
-       review="https://github.com/" />
+       revision="main"
+       review="" />
   <default remote="origin"
-           revision="master"
+           revision="main"
        sync-j="4" />
 <!--  <project name="ZWBNice/MainProject" path="ZWBNice/MainProject" groups="lib" remote="Main" />-->
-  <project name="ZWBNice/NetCore" path="ZWBNice/NetCore" groups="lib" remote="NetCore" />
+  <project name="ZWBNice/NetCore" path="lib/NetCore" groups="lib" remote="NetCore" />
 
 </manifest>
