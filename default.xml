@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<!--  <remote  name="Main"-->
-<!--       fetch=".."-->
-<!--       revision="master"-->
-<!--       review="https://github.com/" />-->
+  <remote  name="Main"
+       fetch="https://github.com/"
+       revision="main"
+       review="https://github.com/" />
   <remote  name="NetCore"
        fetch="https://github.com/"
        revision="main"
@@ -11,7 +11,7 @@
   <default remote="origin"
            revision="main"
        sync-j="4" />
-<!--  <project name="ZWBNice/MainProject" path="ZWBNice/MainProject" groups="lib" remote="Main" />-->
-  <project name="ZWBNice/NetCore" path="/NetCore" groups="lib" remote="NetCore" />
+  <project name="ZWBNice/MainProject" path="/MainProject" groups="mainProject" remote="Main" />
+  <project name="ZWBNice/NetCore" path="/MainProject/NetCore" groups="lib" remote="NetCore" />
 
 </manifest>
