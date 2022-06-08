@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="NetCore"
-       fetch="https://github.com/"
-       revision="master"
-       review="" />
-  <default remote="origin"
-           revision="master"
-       sync-j="4" />
-  <project name="ZWBNice/NetCore" path="/NetCore" groups="lib" remote="NetCore" />
+<!--  <remote  name="NetCore"-->
+<!--       fetch="https://github.com/"-->
+<!--       revision="master"-->
+<!--       review="" />-->
+<!--  <default remote="origin"-->
+<!--           revision="master"-->
+<!--       sync-j="4" />-->
+<!--  <project name="ZWBNice/NetCore" path="/NetCore" groups="lib" remote="NetCore" />-->
 </manifest>
