@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="Main"
-       fetch=".."
-       revision="master"
-       review="https://github.com" />
+<!--  <remote  name="Main"-->
+<!--       fetch=".."-->
+<!--       revision="master"-->
+<!--       review="https://github.com/" />-->
   <remote  name="NetCore"
        fetch="https://github.com"
        revision="master"
-       review="https://github.com" />
+       review="https://github.com/" />
   <default remote="origin"
            revision="master"
        sync-j="4" />
-  <project name="ZWBNice/MainProject" path="lib/goconfig" groups="lib" remote="Main" />
-  <project name="ZWBNice/NetCore" path="lib/multi-log" groups="lib" remote="NetCore" />
+<!--  <project name="ZWBNice/MainProject" path="ZWBNice/MainProject" groups="lib" remote="Main" />-->
+  <project name="ZWBNice/NetCore" path="ZWBNice/NetCore" groups="lib" remote="NetCore" />
+
 </manifest>
