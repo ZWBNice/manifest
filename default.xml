@@ -2,10 +2,10 @@
 <manifest>
   <remote  name="NetCore"
        fetch="https://github.com/"
-       revision="main"
+       revision="default"
        review="" />
   <default remote="origin"
-           revision="main"
+           revision="default"
        sync-j="4" />
   <project name="ZWBNice/NetCore" path="/NetCore" groups="lib" remote="NetCore" />
 </manifest>
