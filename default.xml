@@ -9,9 +9,9 @@
        revision="main"
        review="" />
   <default remote="origin"
-           revision="main"
+           revision="master"
        sync-j="4" />
 <!--  <project name="ZWBNice/MainProject" path="ZWBNice/MainProject" groups="lib" remote="Main" />-->
-  <project name="ZWBNice/NetCore" path="lib/NetCore" groups="lib" remote="NetCore" />
+  <project name="ZWBNice/NetCore" path="/NetCore" groups="lib" remote="NetCore" />
 
 </manifest>
