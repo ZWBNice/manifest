@@ -5,7 +5,7 @@
 <!--       revision="master"-->
 <!--       review="https://github.com/" />-->
   <remote  name="NetCore"
-       fetch="https://github.com"
+       fetch="https://github.com/"
        revision="main"
        review="" />
   <default remote="origin"
